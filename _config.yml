@@ -1,0 +1,4 @@
+# Site settings
+title: Philharmonic homepage
+gems:
+ - jekyll-mentions
