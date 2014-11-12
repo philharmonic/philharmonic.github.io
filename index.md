@@ -32,6 +32,12 @@ You can then run the simulation.
 
     python simulate.py run --conf=philharmonic.settings.fbf
 
+### Datasets
+
+The datasets of real-time electricity prices and temperatures that can be used
+in the simulation are described
+[here](https://github.com/philharmonic/philharmonic/tree/master/io/geotemp).
+
 ### Authors and Contributors
 
 The simulator was created by Dražen Lučanin (@kermit666)
