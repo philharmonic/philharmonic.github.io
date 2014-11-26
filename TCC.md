@@ -14,6 +14,20 @@ For any questions, contact the corresponding author
 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
 Dražen Lučanin</a>.
 
+## Geotemporal Inputs
+
+To illustrate the dynamic environment caused by geotemporal inputs,
+the following animation shows real-time electricity prices and temperatures
+change over the same geographic region during a period of 24 hours.
+
+<img
+src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/prices.gif"
+alt="Temperature"
+style="width: 350px; margin-right: 1em;"> <img
+src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/temperature.gif"
+alt="Temperature"
+style="width: 320px;">
+
 ## Simulator
 
 For all the details of the Philharmonic simulator visit [the project page](/).
