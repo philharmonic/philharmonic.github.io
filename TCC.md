@@ -6,8 +6,8 @@ layout: base
 
 Supplementary materials as part of the journal paper submitted to
 *IEEE Transactions on Cloud Computing: Special Issue on Green and
-Energy-Efficient Cloud Computing.* Here, we share some additional
-details related to the topic that did not fit inside the paper itself.
+Energy-Efficient Cloud Computing.* Here, we share additional
+details, graphs and animations related to the topic.
 
 For any questions, contact the corresponding author
 <a href="http://www.infosys.tuwien.ac.at/staff/drazen/"
