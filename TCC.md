@@ -35,6 +35,12 @@ There you will find the instructions for installing and using it.
 The version of the code released for the paper is accessible
 under the [TCC tag](https://github.com/philharmonic/philharmonic/tree/TCC/).
 
+## Datasets
+
+The datasets of real-time electricity prices and temperatures that can be used
+in the simulation are described
+[here](https://github.com/philharmonic/philharmonic/tree/master/io/geotemp).
+
 ## Model
 
 The details of the migration model implemented in
