@@ -4,9 +4,6 @@ layout: default
 
 ### Welcome to the Philharmonic homepage.
 
-[![Build Status](https://travis-ci.org/philharmonic/philharmonic.svg)](https://travis-ci.org/philharmonic/philharmonic)
-[![Coverage Status](https://img.shields.io/coveralls/philharmonic/philharmonic.svg)](https://coveralls.io/r/philharmonic/philharmonic)
-
 Philharmonic is primarily a cloud simulator focused on realistically
 modelling geographically-distributed data centers influenced by real time
 electricity prices and temperature-dependent cooling efficiency that we call
