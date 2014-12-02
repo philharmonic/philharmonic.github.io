@@ -34,11 +34,11 @@ For installation details see
 
 Generate the random input data.
 
-    python simulate.py inputgen --conf=philharmonic.settings.fbf
+    python simulate.py inputgen --conf=philharmonic.settings.bcf
 
 You can then run the simulation.
 
-    python simulate.py run --conf=philharmonic.settings.fbf
+    python simulate.py run --conf=philharmonic.settings.bcf
 
 ### Datasets
 
@@ -48,11 +48,12 @@ in the simulation are described
 
 ### Authors and Contributors
 
-The simulator was created by Dražen Lučanin (@kermit666)
+The simulator was created by
+[Dražen Lučanin](http://www.infosys.tuwien.ac.at/staff/drazen/)
 while working as a research assistant at the
-[Vienna University of Technology](http://www.infosys.tuwien.ac.at/staff/drazen/).
+Vienna University of Technology.
 
-### Support or Contact
+### Contact and Support
 
 Interested in using Philharmonic and having trouble with it? Feel free to
 [file a ticket](https://github.com/philharmonic/philharmonic/issues) or
