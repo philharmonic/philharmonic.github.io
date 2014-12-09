@@ -12,13 +12,11 @@ geotemporal inputs, the following animation shows real-time electricity prices
 and temperatures change over the same geographic region during
 a period of 24 hours.
 
-<img
+<img class="timeseries-animation left"
 src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/prices.gif"
-alt="Temperature"
-style="width: 250px; margin-right: 1em;"> <img
+alt="Temperature"> <img  class="timeseries-animation right"
 src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/temperature.gif"
-alt="Temperature"
-style="width: 229px;">
+alt="Temperature">
 
 For a part of the functionality (namely VM pausing) Philharmonic can interact
 with a real OpenStack deployment and it offers a way to collect power

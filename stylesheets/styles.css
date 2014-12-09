@@ -182,6 +182,15 @@ footer {
   bottom:50px;
 }
 
+img.timeseries-animation.left{
+    width: 240px;
+    margin-right: 1em;
+}
+
+img.timeseries-animation.right{
+    width: 220px;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -232,6 +241,15 @@ footer {
   
   pre, code {
     word-wrap:normal;
+  }
+
+  img.timeseries-animation.left{
+      width: 100%;
+      margin-bottom: 1em;
+  }
+
+  img.timeseries-animation.right{
+      width: 100%;
   }
 }
 
