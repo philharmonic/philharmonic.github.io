@@ -2,11 +2,11 @@
 layout: default
 ---
 
-### Welcome to the Philharmonic homepage.
+### Welcome to Philharmonic
 
-Philharmonic is primarily a cloud simulator focused on realistically
-modelling geographically-distributed data centers influenced by real time
-electricity prices and temperature-dependent cooling efficiency that we call
+Philharmonic is a cloud simulator developed in Python to realistically model
+geographically-distributed data centers influenced by real-time electricity
+prices and temperature-dependent cooling efficiency that we call
 *geotemporal inputs*. To illustrate the dynamic environment caused by
 geotemporal inputs, the following animation shows real-time electricity prices
 and temperatures change over the same geographic region during
@@ -18,7 +18,11 @@ alt="Temperature"> <img  class="timeseries-animation right"
 src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/temperature.gif"
 alt="Temperature">
 
-For a part of the functionality (namely VM pausing) Philharmonic can interact
+Philharmonic can simulate different scheduling algorithms and
+calculate their effects in terms of energy consumption, costs, cooling overhead
+and service quality.
+
+For a part of the functionality (namely VM pausing), Philharmonic can interact
 with a real OpenStack deployment and it offers a way to collect power
 measurements from Eaton wattmeters. This experimental approach is no longer
 the focus of development, however.
@@ -30,7 +34,11 @@ For installation details see
 
 ### Usage
 
-Generate the random input data.
+Philharmonic is used through a command line interface (CLI).
+
+[![the command line interface](img/philharmonic-terminal.png)](img/philharmonic-terminal.png)
+
+The first step is to generate the random input data.
 
     python simulate.py inputgen --conf=philharmonic.settings.bcf
 
@@ -38,10 +46,21 @@ You can then run the simulation.
 
     python simulate.py run --conf=philharmonic.settings.bcf
 
+The simulation results are serialised data frames that can be parsed and
+analysed in Python using scientific libraries such as
+[Pandas](http://pandas.pydata.org/) and [Matplotlib](http://matplotlib.org/),
+e.g. in the integrated [IPython notebook](http://ipython.org/notebook.html)
+environment.
+
+[![analysing results in IPython](img/philharmonic-notebook.png)](img/philharmonic-notebook.png)
+
+For more information on usage,
+consult the [README](https://github.com/philharmonic/philharmonic#running).
+
 ### Datasets
 
 The datasets of real-time electricity prices and temperatures that can be used
-in the simulation are described
+in the simulator are described
 [here](https://github.com/philharmonic/philharmonic/tree/master/io/geotemp).
 
 ### Authors and Contributors
@@ -51,8 +70,23 @@ The simulator was created by
 while working as a research assistant at the
 Vienna University of Technology.
 
+Contributions to the project were made by
+[Ilia Pietri](https://github.com/iliapietri) from the
+University of Manchester.
+
 ### Contact and Support
 
 Interested in using Philharmonic and having trouble with it? Feel free to
 [file a ticket](https://github.com/philharmonic/philharmonic/issues) or
 [contact me directly](http://www.infosys.tuwien.ac.at/staff/drazen/).
+
+If you find this simulator useful for your research, consider citing this paper
+where we first described it.
+
+```
+Dražen Lučanin, Foued Jrad, Ivona Brandić, and Achim Streit.
+Energy-Aware Cloud Management through Progressive SLA Specification.
+Economics of Grids, Clouds, Systems, and Services - 11th International
+Conference (GECON 2014). 16-18 September, 2014, Cardiff, UK.
+```
+([arXiv](http://arxiv.org/abs/1409.0325))
