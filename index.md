@@ -27,10 +27,12 @@ with a real OpenStack deployment and it offers a way to collect power
 measurements from Eaton wattmeters. This experimental approach is no longer
 the focus of development, however.
 
+
 ### Installation
 
 For installation details see
 [these instructions](https://github.com/philharmonic/philharmonic#installation).
+
 
 ### Usage
 
@@ -57,32 +59,37 @@ environment.
 For more information on usage,
 consult the [README](https://github.com/philharmonic/philharmonic#running).
 
+
 ### Datasets
 
 The datasets of real-time electricity prices and temperatures that can be used
 in the simulator are described
 [here](https://github.com/philharmonic/philharmonic/tree/master/io/geotemp).
 
+
 ### Authors and Contributors
 
 The simulator was created by
 [Dražen Lučanin](http://www.infosys.tuwien.ac.at/staff/drazen/)
-while working as a research assistant at the
+during his PhD study at the
 Vienna University of Technology.
 
 Contributions to the project were made by
-[Ilia Pietri](https://github.com/iliapietri) from the
-University of Manchester.
+[Ilia Pietri](http://www.researchgate.net/profile/Ilia_Pietri) from the
+University of Manchester, UK and
+[Simon Holmbacka](http://www.researchgate.net/profile/Simon_Holmbacka)
+from Åbo Akademi University, Turku, Finland.
+
 
 ### Contact and Support
 
 Interested in using Philharmonic and having trouble with it? Feel free to
 [file a ticket](https://github.com/philharmonic/philharmonic/issues) or
-[contact me directly](http://www.infosys.tuwien.ac.at/staff/drazen/).
+[contact me directly](http://kermit.epska.org/about/).
 
-If you find this simulator useful for your research, consider citing one of the
-paper where we talkad about its architecture, datasets and scheduling
-algorithms. This the paper where we first described it:
+If you find this simulator useful for your research, please consider citing
+one of the papers where we wrote about its architecture, datasets and
+scheduling algorithms. This is the paper where we first described it:
 
 ```
 Dražen Lučanin, Foued Jrad, Ivona Brandić, and Achim Streit.
@@ -93,19 +100,18 @@ Conference (GECON 2014). 16-18 September, 2014, Cardiff, UK.
 ([arXiv](http://arxiv.org/abs/1409.0325),
 [SpringerLink](http://link.springer.com/chapter/10.1007/978-3-319-14609-6_6))
 
-This journal paper gives a bit more details about the simulator and presents the
-genetic algorithm scheduler:
+This journal paper gives a much more detailed overview of the simulator,
+cloud model and presents the Genetic Algorithm and Best Cost Fit schedulers:
 
 ```
 Dražen Lučanin, Ivona Brandić.
 Pervasive Cloud Controller for Geotemporal Inputs.
 IEEE Transactions on Cloud Computing (TCC), 2015.
 ```
-([IEEE Preprint](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7180314))
+([IEEE Xplore](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7180314))
 
 The Best Cost Fit Frequency Scaling scheduler is explained in this conference
 paper:
-
 
 ```
 Dražen Lučanin, Ilia Pietri, Ivona Brandić, Rizos Sakellariou.
