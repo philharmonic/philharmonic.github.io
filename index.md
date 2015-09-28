@@ -80,8 +80,9 @@ Interested in using Philharmonic and having trouble with it? Feel free to
 [file a ticket](https://github.com/philharmonic/philharmonic/issues) or
 [contact me directly](http://www.infosys.tuwien.ac.at/staff/drazen/).
 
-If you find this simulator useful for your research, consider citing this paper
-where we first described it.
+If you find this simulator useful for your research, consider citing one of the
+paper where we talkad about its architecture, datasets and scheduling
+algorithms. This the paper where we first described it:
 
 ```
 Dražen Lučanin, Foued Jrad, Ivona Brandić, and Achim Streit.
@@ -89,4 +90,27 @@ Energy-Aware Cloud Management through Progressive SLA Specification.
 Economics of Grids, Clouds, Systems, and Services - 11th International
 Conference (GECON 2014). 16-18 September, 2014, Cardiff, UK.
 ```
-([arXiv](http://arxiv.org/abs/1409.0325))
+([arXiv](http://arxiv.org/abs/1409.0325),
+[SpringerLink](http://link.springer.com/chapter/10.1007/978-3-319-14609-6_6))
+
+This journal paper gives a bit more details about the simulator and presents the
+genetic algorithm scheduler:
+
+```
+Dražen Lučanin, Ivona Brandić.
+Pervasive Cloud Controller for Geotemporal Inputs.
+IEEE Transactions on Cloud Computing (TCC), 2015.
+```
+([IEEE Preprint](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7180314))
+
+The Best Cost Fit Frequency Scaling scheduler is explained in this conference
+paper:
+
+
+```
+Dražen Lučanin, Ilia Pietri, Ivona Brandić, Rizos Sakellariou.
+A Cloud Controller for Performance-Based Pricing.
+8th IEEE International Conference on Cloud Computing (CLOUD 2015),
+27 June – 2 July, 2015, New York, USA.
+```
+([IEEE Xplore](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7214040))
