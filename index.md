@@ -13,9 +13,9 @@ and temperatures change over the same geographic region during
 a period of 24 hours.
 
 <img class="timeseries-animation left"
-src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/prices.gif"
-alt="Temperature"> <img  class="timeseries-animation right"
-src="https://dl.dropboxusercontent.com/u/1177591/philharmonic/temperature.gif"
+src="./img/prices.gif"
+alt="Prices"> <img  class="timeseries-animation right"
+src="./img/temperature.gif"
 alt="Temperature">
 
 Philharmonic can simulate different scheduling algorithms and
