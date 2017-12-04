@@ -80,16 +80,9 @@ University of Manchester, UK and
 [Simon Holmbacka](http://www.researchgate.net/profile/Simon_Holmbacka)
 from Åbo Akademi University, Turku, Finland.
 
-
-### Contact and Support
-
-Interested in using Philharmonic and having trouble with it? Feel free to
-[file a ticket](https://github.com/philharmonic/philharmonic/issues) or
-[contact me directly](http://kermit.epska.org/about/).
-
 If you find this simulator useful for your research, please consider citing
 one of the papers where we wrote about its architecture, datasets and
-scheduling algorithms. This is the paper where we first described it:
+scheduling algorithms. This is the conference paper where we first described it:
 
 ```
 Dražen Lučanin, Foued Jrad, Ivona Brandić, and Achim Streit.
@@ -120,3 +113,9 @@ A Cloud Controller for Performance-Based Pricing.
 27 June – 2 July, 2015, New York, USA.
 ```
 ([IEEE Xplore](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7214040))
+
+### Contact and Support
+
+Interested in using Philharmonic and having trouble with it? Feel free to
+[file a ticket](https://github.com/philharmonic/philharmonic/issues) or
+[contact me directly](https://metakermit.com/about/).
